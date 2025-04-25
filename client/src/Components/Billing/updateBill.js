@@ -125,7 +125,7 @@ const UpdateBill = () => {
  
   const handleBalanceRow = () => {
     if(selectedCustomer){
-      const tempRow = [...balanceRow, { 'id':undefined',customer_id':selectedCustomer.customer_id,'gold_weight': 0, 'gold_touch': 0, 'gold_pure': 0 }]
+      const tempRow = [...balanceRow, { 'id':undefined,'customer_id':selectedCustomer.customer_id,'gold_weight': 0, 'gold_touch': 0, 'gold_pure': 0 }]
       setBalanceRow(tempRow)
     }
   }
